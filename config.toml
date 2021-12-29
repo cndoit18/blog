@@ -11,7 +11,14 @@ canonifyurls = true
 [params]
 favicon = 'images/favicon.svg'
 enableReadingTime = true
+enableGitalk = true
 subtitle = "cndoit18's Blog"
+
+[params.gitalk]
+client_id = '51b47ae3df5c7375bfd1'
+client_secret = '80185e2e2cf6a6d758aee5aa35a3c08b5cbca431'
+repo = 'blog'
+owner = 'cndoit18'
 
 [taxonomies]
 tag = "tags"
