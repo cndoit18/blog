@@ -1,4 +1,4 @@
-baseURL = "https://cndoit18.github.io/blog/"
+baseURL = "https://blog.cndoit18.club/"
 defaultContentLanguage = "zh"
 languageCode = 'en-us'
 publishdir = 'public'
