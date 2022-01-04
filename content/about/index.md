@@ -2,7 +2,7 @@
 title: "About"
 date: 2021-12-30T12:11:31+08:00
 description: ""
-featured_image: "/images/hippopx.jpg"
+featured_image: "hippopx.jpg"
 tags: []
 categories:
 draft: false
