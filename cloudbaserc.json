@@ -1,0 +1,14 @@
+{
+    "envId": "{{envId}}",
+    "framework": {
+        "name": "blog",
+        "plugins": {
+            "client": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "outputPath": "./public"
+                }
+            }
+        }
+    }
+}

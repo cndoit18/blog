@@ -25,6 +25,14 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Deploy static to Tencent CloudBase
+        uses: TencentCloudBase/cloudbase-action@v2.0.1
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          secretId: ${{secrets.secretId}}
+          secretKey: ${{secrets.secretKey}}
+          envId: ${{secrets.envId}}
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
